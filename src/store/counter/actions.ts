@@ -1,7 +1,7 @@
 import { ActionTypes } from '../actionTypes';
 import { CounterActionTypes } from './types';
 
-// アクションクリエーター
+// Action Creator・・・stateを変更するために必要なアクションを発行する
 // StoreのStateをいじるには、これを通さないといけない
 
 export const incrementAction = (): CounterActionTypes => {

@@ -8,7 +8,7 @@ const rootReducer = combineReducers({
 });
 
 // states type・・・stateの型推論？？
-// ReturnType<>・・・推論した戻り値 の型を抽出する
+// ReturnType<>・・・推論した戻り値の型を抽出する
 export type RootState = ReturnType<typeof rootReducer>;
 
 // store・・・stateを管理する場所
